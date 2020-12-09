@@ -1,4 +1,4 @@
-f = file("input.txt", "r")
+f = open("input.txt", "r")
 lines = f.readlines()
 
 numberOfValidPasswords = 0
